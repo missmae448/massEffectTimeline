@@ -4,6 +4,44 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+body{
+    margin: 0;
+}
+
+
+
+/* ------------Header------------*/
+
+header{
+    background: url("images/bg01.png"), url(images/bgImage.jpg);
+    background-position: top left, center center;
+    background-size: auto, cover;
+	padding: 3em 0;
+}
+
+header section{
+    text-align: center;
+	width: 940px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 9em 0 6em 0;
+    
+}
+
+
+
+
+
+
+/* -------------Acts--------------*/
+
+div{
+    text-align: center;
+	width: 940px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 9em 0 6em 0;
+}
   
 
 .container{
@@ -12,6 +50,17 @@ html {
     justify-content: space-between;
     
 }
+
+.container ::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #006E51;
+    top: 700px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+  }
 
 article{
     width: 45%;
